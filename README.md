@@ -6,9 +6,6 @@
   <a href="https://telegra.ph/file/3d14b9883baccf71f2229.jpg">
      <img height="400px" src="https://telegra.ph/file/3d14b9883baccf71f2229.jpg">
   </a>
-</p>
-
-<p align="right">
   <a href="https://telegra.ph/file/23cfc4db1ff66d78429b5.jpg">
      <img height="400px" src="https://telegra.ph/file/23cfc4db1ff66d78429b5.jpg">
   </a>
