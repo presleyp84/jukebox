@@ -1,7 +1,14 @@
 <h1 align="centre">Jukebox 🎵</h1>
 
+### A bot that can play music on Telegram Group and Channel Voice Chats
 
-<h2> Whats new 🔥 </h2>
+<p align="center">
+  <a href="https://telegra.ph/file/3d14b9883baccf71f2229.jpg">
+     <img height="200px" src="https://telegra.ph/file/3d14b9883baccf71f2229.jpg">
+  </a>
+</p>
+
+<h2> Supported Features 🔥 </h2>
 
 - Thumbnail Support
 - Playlist Support
