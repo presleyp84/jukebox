@@ -36,13 +36,12 @@
 # Install Git First (apt-instll git)
 $ git clone https://github.com/patrickpresley084/jukebox
 $ cd jukebox
-# Upgrade sources
-# Install All Requirements 
-$ pip(3) install -r requirements.txt
+$ pip3 install -r requirements.txt
 # Rename example.env to local.env and fill
+$ cp example.env local.env
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m jukebox
+$ python3 -m jukebox
 ```
 
 ### Commands for Group 🛠
