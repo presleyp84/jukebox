@@ -15,29 +15,29 @@ from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from Group_Music_Probot.modules.play import generate_cover
-from Group_Music_Probot.modules.play import arq
-from Group_Music_Probot.modules.play import cb_admin_check
-from Group_Music_Probot.modules.play import transcode
-from Group_Music_Probot.modules.play import convert_seconds
-from Group_Music_Probot.modules.play import time_to_seconds
-from Group_Music_Probot.modules.play import changeImageSize
-from Group_Music_Probot.config import BOT_NAME as bn
-from Group_Music_Probot.config import DURATION_LIMIT
-from Group_Music_Probot.config import UPDATES_CHANNEL as updateschannel
-from Group_Music_Probot.config import que
-from Group_Music_Probot.function.admins import admins as a
-from Group_Music_Probot.helpers.errors import DurationLimitError
-from Group_Music_Probot.helpers.decorators import errors
-from Group_Music_Probot.helpers.admins import get_administrators
-from Group_Music_Probot.helpers.channelmusic import get_chat_id
-from Group_Music_Probot.helpers.decorators import authorized_users_only
-from Group_Music_Probot.helpers.filters import command, other_filters
-from Group_Music_Probot.helpers.gets import get_file_name
-from Group_Music_Probot.services.callsmusic import callsmusic, queues
-from Group_Music_Probot.services.callsmusic.callsmusic import client as USER
-from Group_Music_Probot.services.converter.converter import convert
-from Group_Music_Probot.services.downloaders import youtube
+from jukebox.modules.play import generate_cover
+from jukebox.modules.play import arq
+from jukebox.modules.play import cb_admin_check
+from jukebox.modules.play import transcode
+from jukebox.modules.play import convert_seconds
+from jukebox.modules.play import time_to_seconds
+from jukebox.modules.play import changeImageSize
+from jukebox.config import BOT_NAME as bn
+from jukebox.config import DURATION_LIMIT
+from jukebox.config import UPDATES_CHANNEL as updateschannel
+from jukebox.config import que
+from jukebox.function.admins import admins as a
+from jukebox.helpers.errors import DurationLimitError
+from jukebox.helpers.decorators import errors
+from jukebox.helpers.admins import get_administrators
+from jukebox.helpers.channelmusic import get_chat_id
+from jukebox.helpers.decorators import authorized_users_only
+from jukebox.helpers.filters import command, other_filters
+from jukebox.helpers.gets import get_file_name
+from jukebox.services.callsmusic import callsmusic, queues
+from jukebox.services.callsmusic.callsmusic import client as USER
+from jukebox.services.converter.converter import convert
+from jukebox.services.downloaders import youtube
 
 chat_id = None
 
@@ -772,7 +772,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @Group_Music_Probot to your Group and try again</b>",
+                        "\n\nOr manually add @musicjukebot to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)

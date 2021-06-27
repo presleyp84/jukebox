@@ -1,1 +1,1 @@
-from Group_Music_Probot.services.downloaders.youtube import download
+from jukebox.services.downloaders.youtube import download

@@ -3,8 +3,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from Group_Music_Probot.config import SUDO_USERS
-from Group_Music_Probot.helpers.admins import get_administrators
+from jukebox.config import SUDO_USERS
+from jukebox.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:

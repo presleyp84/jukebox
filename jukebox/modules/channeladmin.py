@@ -1,13 +1,13 @@
 from asyncio.queues import QueueEmpty
-from Group_Music_Probot.config import que
+from jukebox.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Group_Music_Probot.function.admins import set
-from Group_Music_Probot.helpers.channelmusic import get_chat_id
-from Group_Music_Probot.helpers.decorators import authorized_users_only, errors
-from Group_Music_Probot.helpers.filters import command, other_filters
-from Group_Music_Probot.services.callsmusic import callsmusic
+from jukebox.function.admins import set
+from jukebox.helpers.channelmusic import get_chat_id
+from jukebox.helpers.decorators import authorized_users_only, errors
+from jukebox.helpers.filters import command, other_filters
+from jukebox.services.callsmusic import callsmusic
 
 
 

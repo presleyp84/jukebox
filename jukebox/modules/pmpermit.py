@@ -1,9 +1,9 @@
 from pyrogram import Client
 import asyncio
-from Group_Music_Probot.config import SUDO_USERS, PMPERMIT
+from jukebox.config import SUDO_USERS, PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
-from Group_Music_Probot.services.callsmusic.callsmusic import client as USER
+from jukebox.services.callsmusic.callsmusic import client as USER
 
 PMSET =True
 

@@ -3,9 +3,9 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 
-from Group_Music_Probot.helpers.decorators import authorized_users_only, errors
-from Group_Music_Probot.services.callsmusic.callsmusic import client as USER
-from Group_Music_Probot.config import SUDO_USERS
+from jukebox.helpers.decorators import authorized_users_only, errors
+from jukebox.services.callsmusic.callsmusic import client as USER
+from jukebox.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only

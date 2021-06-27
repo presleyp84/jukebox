@@ -2,8 +2,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from Group_Music_Probot.config import DURATION_LIMIT
-from Group_Music_Probot.helpers.errors import DurationLimitError
+from jukebox.config import DURATION_LIMIT
+from jukebox.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",

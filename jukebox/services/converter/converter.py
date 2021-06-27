@@ -1,7 +1,7 @@
 import asyncio
 from os import path
 
-from Group_Music_Probot.helpers.errors import FFmpegReturnCodeError
+from jukebox.helpers.errors import FFmpegReturnCodeError
 
 
 async def convert(file_path: str) -> str:

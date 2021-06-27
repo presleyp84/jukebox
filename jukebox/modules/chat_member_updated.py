@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pyrogram.types import ChatMemberUpdated
 
-from Group_Music_Probot.function import *
+from jukebox.function import *
 
 
 @Client.on_chat_member_updated()
