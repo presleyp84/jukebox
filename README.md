@@ -24,15 +24,15 @@
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/Awesome-RJ/Group-Music-Probot
-$ cd Group_Music_Probot
+$ git clone https://github.com/patrickpresley084/jukebox
+$ cd jukebox
 # Upgrade sources
 # Install All Requirements 
 $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m Group_Music_Probot
+$ python(3) -m jukebox
 ```
 
 ### Commands for Group 🛠
