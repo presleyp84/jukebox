@@ -1,8 +1,8 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
-from Group_Music_Probot.config import API_HASH, API_ID, SESSION_NAME
-from Group_Music_Probot.services.callsmusic import queues
+from jukebox.config import API_HASH, API_ID, SESSION_NAME
+from jukebox.services.callsmusic import queues
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
 pytgcalls = PyTgCalls(client)
