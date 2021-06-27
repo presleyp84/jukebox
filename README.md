@@ -1,4 +1,4 @@
-<h1 align="centre">Group Music Probot V1.0 🎵</h1>
+<h1 align="centre">Jukebox 🎵</h1>
 
 
 <h2> Whats new 🔥 </h2>
@@ -83,26 +83,3 @@ If you donlt like to play in linked channel:
  4. add helper to channel
  5. Simply send commands in your group.
 
-
-
-
-### Credits
-#### Special Credits
-- [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
-
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork Group_Music_Probot won't exist. 
-Group_Music_Probot is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @DaisyXbot users
-
-#### Contribtors
-- [Rajkumar](https://github.com/Awesome-RJ): Dev
-- [InukaASiTH](https://github.com/InukaAsith): Dev
-- [Rojserbest](http://github.com/rojserbes): Dev
-- [Wrench](https://github.com/EverythingSuckz/): Dev
-- [QueenArzoo](https://github.com/QueenArzoo): Dev
-- [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev
-- [AuraXNetwork](https://github.com/AuraXNetwork/AuraXMusicBot)
-- [Hamker Cat](https://github.com/thehamkercat/)
-- [Anjana-Ma](https://github.com/Anjana-Ma): 
-- [ImJanindu](https://github.com/ImJanindu): 
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo owners](https://github.com/suprojects/CallsMusic)
