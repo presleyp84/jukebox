@@ -1,8 +1,5 @@
-<h1 align="centre">Group Music Probot V3.0 🎵</h1>
+<h1 align="centre">Group Music Probot V1.0 🎵</h1>
 
-<p align="center">
-  <img src="https://telegra.ph/file/70008107133ae8f4d1f1f.jpg">
-</p>
 
 <h2> Whats new 🔥 </h2>
 
@@ -19,11 +16,10 @@
 
 ## 🚀 Deployment
 
-### 💜 Heroku
+### Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Awesome-RJ/Group-Music-Probot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/patrickpresley084/jukebox)
 
-Use [repl](https://replit.com/@Rajkumar271/GroupMusicProbot) to get pyrogram string session
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
