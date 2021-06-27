@@ -2,7 +2,7 @@
   "name": "Group_Music_Probot",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Awesome-RJ/Group-Music-Probot",
+  "repository": "https://github.com/patrickpresley084/jukebox",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
