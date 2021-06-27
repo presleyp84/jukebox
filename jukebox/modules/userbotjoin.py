@@ -1,8 +1,6 @@
-import asyncio
-
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
-
+import asyncio
 from jukebox.helpers.decorators import authorized_users_only, errors
 from jukebox.services.callsmusic.callsmusic import client as USER
 from jukebox.config import SUDO_USERS
@@ -23,7 +21,7 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Group Music Probot"
+        user.first_name = "MusicBot"
 
     try:
         await USER.join_chat(invitelink)
@@ -36,7 +34,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @Group_Music_Pro to your Group and try again</b>",
+            "\n\nOr manually add @VCsMusicPlayer to your Group and try again</b>",
         )
         return
     await message.reply_text(
@@ -61,14 +59,16 @@ async def bye(client, message):
     if message.from_user.id in SUDO_USERS:
         left=0
         failed=0
-        await message.reply("Assistant Leaving all chats")
-        for dialog in USER.iter_dialogs():
+        lol = await message.reply("Assistant Leaving all chats")
+        async for dialog in USER.iter_dialogs():
             try:
                 await USER.leave_chat(dialog.chat.id)
                 left = left+1
+                await lol.edit(f"Assistant leaving... Left: {left} chats. Failed: {failed} chats.")
             except:
                 failed=failed+1
-            await asyncio.sleep(3)
+                await lol.edit(f"Assistant leaving... Left: {left} chats. Failed: {failed} chats.")
+            await asyncio.sleep(0.7)
         await client.send_message(message.chat.id, f"Left {left} chats. Failed {failed} chats.")
     
     
@@ -95,7 +95,7 @@ async def addcchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "MusicBot"
 
     try:
         await USER.join_chat(invitelink)
@@ -109,10 +109,9 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @Group_Music_Pro to your Group and try again</b>",
+            "\n\nOr manually add @VCsMusicPlayer to your Group and try again</b>",
         )
         return
     await message.reply_text(
         "<b>helper userbot joined your channel</b>",
     )
-    
