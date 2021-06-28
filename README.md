@@ -31,7 +31,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/patrickpresley084/jukebox)
 
 
-### ⚔ Self-hosting (For Devs) 
+### ⚔ Self-hosting (For Pros) 
 ```sh
 # Install Git First (apt-instll git)
 $ git clone https://github.com/patrickpresley084/jukebox
@@ -43,7 +43,7 @@ $ cp example.env local.env
 $ python3 -m jukebox
 ```
 
-### Commands for Group 🛠
+###🛠 Commands for Group 
 #### For all in group
 
 - `/play <song name>` - play song you requested
@@ -68,7 +68,7 @@ $ python3 -m jukebox
 - `/userbotleave` - remove assistant from your chat
 - `/admincache` - Refresh admin list
 
-### Commands for Channel Music Play 🛠
+###🛠 Commands for Channel Music Play 
 For linked group admins only:
 - `/cplay <song name>` - play song you requested
 - `/cplay <reply to audio>` - play replied file
@@ -84,7 +84,7 @@ For linked group admins only:
 - `/userbotjoinchannel` - invite assistant to your chat
 * channel is also can be used instead of c
 
-### Commands for Sudo Users 👮
+###👮 Commands for Sudo Users 
 - `/userbotleaveall` - remove assistant from all chats
 - `/gcast <reply to message>` - globally brodcast replied message to all chats
 - `/pmpermit [on/off]` - enable/disable pmpermit message
