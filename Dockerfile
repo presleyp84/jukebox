@@ -6,6 +6,6 @@ RUN pip3 install -U pip
 COPY . /app
 WORKDIR /app
 RUN pip3 install -U -r requirements.txt
-RUN apt install youtube-dl
+RUN apt install youtube-dl -y
 
 CMD python3 -m jukebox
