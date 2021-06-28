@@ -1,1 +1,3 @@
-from jukebox.services.downloaders.youtube import download
+from jukebox.services.downloaders import youtube
+
+__all__ = ["youtube"]

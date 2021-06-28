@@ -14,7 +14,7 @@ f"""
 **Setting up**
 1) Make bot admin (Group and in channel if use cplay)
 2) Start a voice chat
-3) Try /play `<song name>` for the first time by an admin
+3) Try /play <song name> for the first time by an admin
  If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry.
 **For Channel Music Play**
 1) Make me admin of your channel.
@@ -22,8 +22,8 @@ f"""
 3) Now send commands in linked group.
 **Commands**
 **=>> Song Playing 🎧**
-- /play `<song name>`: Select the Given Below Keyboard.
-- /play `<yt url>` : Play the given YouTube URL.
+- /play <song name>: Select the Given Below Keyboard.
+- /play <yt url>: Play the given YouTube URL.
 - /ytplay: Directly play song via YouTube Music.
 - /dplay: Play song via deezer.
 - /splay: Play song via jio saavn.
@@ -41,9 +41,9 @@ f"""
 f"""
 **=>> Channel Music Play 👨‍🎤**
 **⭕ For linked group admins only:**
-- /cplay `<song name>`: Play song you requested.
-- /cdplay `<song name>`: Play song you requested via deezer.
-- /csplay `<song name>`: Play song you requested via jio saavn.
+- /cplay <song name>: Play song you requested.
+- /cdplay <song name>: Play song you requested via deezer.
+- /csplay <song name>: Play song you requested via jio saavn.
 - /cplaylist: Show now playing list.
 - /cccurrent: Show now playing.
 - /cplayer: Open music player settings panel.
@@ -63,13 +63,13 @@ f"""
 
 f"""
 **=>> More tools 😬**
-- /musicplayer `<on/off>`: Enable/Disable Music player
+- /musicplayer <on/off> : Enable/Disable Music player
 - /reload: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 **=>> Commands for Sudo Users 👷**
- - /userbotleaveall - Remove assistant from all chats.
- - /gcast `<reply to message>` - Globally brodcast replied message to all chats.
- - /pmpermit `<on/off>` - Enable/Disable PM Permit message.
+ - /userbotleaveall: Remove assistant from all chats.
+ - /gcast <reply to message>: Globally brodcast replied message to all chats.
+ - /pmpermit <on/off>: Enable/Disable PM Permit message.
 **Sudo Users can execute any command in any groups.**
 """
       ]
