@@ -6,4 +6,6 @@ RUN pip3 install -U pip
 COPY . /app
 WORKDIR /app
 RUN pip3 install -U -r requirements.txt
+RUN snap install youtube-dl
+
 CMD python3 -m jukebox
