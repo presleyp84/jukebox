@@ -39,7 +39,6 @@ $ cd jukebox
 $ pip3 install -r requirements.txt
 # Rename example.env to local.env and fill
 $ cp example.env local.env
-$ npm i -g npm
 # Start Bot 
 $ python3 -m jukebox
 ```
