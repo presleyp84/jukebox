@@ -1,5 +1,6 @@
-from os import getenv
 import os
+from os import path
+from os import getenv
 from dotenv import load_dotenv
 
 if os.path.exists("local.env"):
@@ -26,4 +27,3 @@ LOG_GRP = getenv("LOG_GRP", None)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-
